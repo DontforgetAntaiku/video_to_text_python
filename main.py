@@ -1,6 +1,6 @@
 import speech_recognition as sr
 import os
-from moviepy.editor import VideoFileClip
+from moviepy import VideoFileClip
 import clipboard
 def mp4_to_text(path, lang):
 	lang = "ru-RU" if lang == "Ru" else "uk-UK" if lang == "Uk" else "en-US" if lang == "En" else lang
